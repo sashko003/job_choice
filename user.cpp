@@ -2,7 +2,25 @@
 
 User::User()
 {
-
+    vector<string> features = {"швидкість та гнучкість мислення",
+                               "вміння швидко приймати рішення",
+                               "стійкість та концентрація уваги",
+                               "зорова память",
+                               "швидкість реакції",
+                               "рухлива память",
+                               "фізична виносливість",
+                               "координація рухів",
+                               "емоційно-вольова стійкість",
+                               "відповідальність"
+    };
+    std::pair<string, float> temp;
+    for(vector<string>::const_iterator it = features.begin();
+        it != features.end();
+        ++it){
+        temp.first = *it;
+        temp.second = 0.0;
+        MapSkills.insert(temp);
+    }
 }
 
 User::User(std::string _name, map<std::string, float> _skills)

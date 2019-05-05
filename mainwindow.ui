@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>890</width>
-    <height>505</height>
+    <width>930</width>
+    <height>524</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,25 +19,25 @@
      <rect>
       <x>0</x>
       <y>40</y>
-      <width>631</width>
-      <height>421</height>
+      <width>611</width>
+      <height>361</height>
      </rect>
     </property>
    </widget>
    <widget class="QTableWidget" name="tableWidget_UserData">
     <property name="geometry">
      <rect>
-      <x>640</x>
+      <x>620</x>
       <y>40</y>
-      <width>256</width>
-      <height>421</height>
+      <width>301</width>
+      <height>361</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_Jobs">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>240</x>
       <y>10</y>
       <width>101</width>
       <height>20</height>
@@ -70,13 +70,49 @@
      <string>User Data</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_EnterData">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>410</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_BuildDiagram">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>410</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Diagram</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_Result">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>410</y>
+      <width>611</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>890</width>
+     <width>930</width>
      <height>21</height>
     </rect>
    </property>

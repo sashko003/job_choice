@@ -25,10 +25,10 @@ void Job::set(std::string _name, vector<std::string> _features, vector<float> _v
 {
     this->StrName = _name;
     vector<float>::iterator val = _values.begin();
+    std::pair<string, float> temp;
     for(vector<string>::iterator feature = _features.begin();
         feature != _features.end();
         ++feature){
-        std::pair<string, float> temp;
         temp.first = *feature;
         temp.second = *val;
         MapFeatures.insert(temp);
