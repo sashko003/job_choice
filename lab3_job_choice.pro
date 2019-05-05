@@ -32,7 +32,8 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
     job.h \
-    user.h
+    user.h \
+    header.h
 
 FORMS += \
         mainwindow.ui
